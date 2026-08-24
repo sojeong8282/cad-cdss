@@ -1,0 +1,2 @@
+﻿threshold,recall,specificity,precision,negative_predictive_value,f1,accuracy,tn,fp,fn,tp,reproduced_threshold,locked_final_threshold,test_used_for_selection
+0.64,0.9017341040462428,0.7971014492753623,0.9176470588235294,0.7638888888888888,0.9096209912536443,0.871900826446281,55.0,14.0,17.0,156.0,0.64,0.64,False

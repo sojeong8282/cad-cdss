@@ -1,0 +1,54 @@
+﻿feature_order,feature,feature_kr,dtype,missing_count,missing_rate,unique_count,abc_group
+1,Age,나이,int64,0,0.0,46,A
+2,Sex,성별,int64,0,0.0,2,A
+3,BMI,체질량지수,float64,0,0.0,263,A
+4,DM,당뇨병,int64,0,0.0,2,A
+5,HTN,고혈압,int64,0,0.0,2,A
+6,Current Smoker,현재흡연,int64,0,0.0,2,A
+7,EX-Smoker,과거흡연,int64,0,0.0,2,A
+8,FH,가족력,int64,0,0.0,2,A
+9,Obesity,비만,int64,0,0.0,2,A
+10,CRF,만성신부전,int64,0,0.0,2,A
+11,CVA,뇌혈관질환,int64,0,0.0,2,A
+12,Airway disease,기도질환,int64,0,0.0,2,A
+13,Thyroid Disease,갑상선질환,int64,0,0.0,2,A
+14,CHF,울혈성심부전,int64,0,0.0,2,A
+15,DLP,이상지질혈증,int64,0,0.0,2,A
+16,BP,혈압,int64,0,0.0,17,A
+17,PR,맥박수,int64,0,0.0,21,A
+18,Edema,부종,int64,0,0.0,2,A
+19,Weak Peripheral Pulse,약한말초맥,int64,0,0.0,2,A
+20,Lung rales,폐수포음,int64,0,0.0,2,A
+21,Systolic Murmur,수축기잡음,int64,0,0.0,2,A
+22,Diastolic Murmur,이완기잡음,int64,0,0.0,2,A
+23,Typical Chest Pain,전형적흉통,int64,0,0.0,2,A
+24,Dyspnea,호흡곤란,int64,0,0.0,2,A
+25,Function Class,기능등급,int64,0,0.0,4,A
+26,Atypical,비전형적흉통,int64,0,0.0,2,A
+27,Nonanginal,비협심증성통증,int64,0,0.0,2,A
+28,LowTH Ang,저역치협심증,int64,0,0.0,2,A
+29,Q Wave,Q파,int64,0,0.0,2,B
+30,St Elevation,ST상승,int64,0,0.0,2,B
+31,St Depression,ST하강,int64,0,0.0,2,B
+32,Tinversion,T파역전,int64,0,0.0,2,B
+33,LVH,좌심실비대,int64,0,0.0,2,B
+34,Poor R Progression,R파진행불량,int64,0,0.0,2,B
+35,FBS,공복혈당,int64,0,0.0,113,B
+36,CR,크레아티닌,float64,0,0.0,18,B
+37,TG,중성지방,int64,0,0.0,147,B
+38,LDL,저밀도지단백,int64,0,0.0,110,B
+39,HDL,고밀도지단백,float64,0,0.0,47,B
+40,BUN,혈중요소질소,int64,0,0.0,33,B
+41,ESR,적혈구침강속도,int64,0,0.0,58,B
+42,HB,헤모글로빈,float64,0,0.0,66,B
+43,K,칼륨,float64,0,0.0,27,B
+44,Na,나트륨,int64,0,0.0,25,B
+45,WBC,백혈구,int64,0,0.0,78,B
+46,Lymph,림프구,int64,0,0.0,50,B
+47,Neut,호중구,int64,0,0.0,52,B
+48,PLT,혈소판,int64,0,0.0,135,B
+49,EF-TTE,좌심실박출률,int64,0,0.0,11,C
+50,Region RWMA,국소벽운동이상,int64,0,0.0,5,C
+51,VHD,판막질환,int64,0,0.0,4,C
+52,BBB_LBBB,좌각차단,int64,0,0.0,2,B
+53,BBB_RBBB,우각차단,int64,0,0.0,2,B

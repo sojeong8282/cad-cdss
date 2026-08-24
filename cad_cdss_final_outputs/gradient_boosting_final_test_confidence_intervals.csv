@@ -1,0 +1,11 @@
+﻿metric,estimate,ci_low,ci_high,confidence_level,direction,valid_bootstrap_samples,method,fixed_threshold,used_for_model_or_threshold_selection
+roc_auc,0.8152454780361756,0.6819412878787879,0.9273265528161487,0.95,higher_is_better,5000,patient-level percentile bootstrap,0.64,False
+pr_auc,0.9105845979872861,0.8227242376950599,0.9761121283517344,0.95,higher_is_better,5000,patient-level percentile bootstrap,0.64,False
+brier,0.1582957053875616,0.09144654834358176,0.2333217453446011,0.95,lower_is_better,5000,patient-level percentile bootstrap,0.64,False
+log_loss,0.5652760299216394,0.2944762865566375,0.8971975475188851,0.95,lower_is_better,5000,patient-level percentile bootstrap,0.64,False
+accuracy,0.8032786885245902,0.7049180327868853,0.9016393442622951,0.95,higher_is_better,5000,patient-level percentile bootstrap,0.64,False
+recall,0.8604651162790697,0.75,0.9545454545454546,0.95,higher_is_better,5000,patient-level percentile bootstrap,0.64,False
+specificity,0.6666666666666666,0.4375,0.8800588235294109,0.95,higher_is_better,5000,patient-level percentile bootstrap,0.64,False
+precision,0.8604651162790697,0.75,0.9545454545454546,0.95,higher_is_better,5000,patient-level percentile bootstrap,0.64,False
+negative_predictive_value,0.6666666666666666,0.4375,0.8823529411764706,0.95,higher_is_better,5000,patient-level percentile bootstrap,0.64,False
+f1,0.8604651162790697,0.7714285714285715,0.9318181818181818,0.95,higher_is_better,5000,patient-level percentile bootstrap,0.64,False

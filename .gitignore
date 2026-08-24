@@ -1,0 +1,40 @@
+# API Key 및 비밀정보
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/
+
+# 운영체제 임시파일
+.DS_Store
+Thumbs.db
+
+# 구버전 파이프라인 스크립트 (최종본은 cad_model_analysis_final.py)
+cad_cdss_model_pipeline*
+
+# 최종 분석 출력: 앱 실행 파일 + README 근거가 되는 요약 결과만 포함
+cad_cdss_final_outputs/*
+!cad_cdss_final_outputs/cad_cdss_gradient_boosting_final.joblib
+!cad_cdss_final_outputs/gradient_boosting_final_metadata.json
+!cad_cdss_final_outputs/gradient_boosting_final_test_result.csv
+!cad_cdss_final_outputs/gradient_boosting_final_test_confidence_intervals.csv
+!cad_cdss_final_outputs/gradient_boosting_selected_threshold.csv
+!cad_cdss_final_outputs/gradient_boosting_threshold_table.csv
+!cad_cdss_final_outputs/abc_repeated_cv_summary.csv
+!cad_cdss_final_outputs/abc_paired_bootstrap_differences.csv
+!cad_cdss_final_outputs/candidate_model_repeated_cv_summary.csv
+!cad_cdss_final_outputs/gradient_boosting_calibration_summary.csv
+!cad_cdss_final_outputs/preprocessing_feature_report.csv
+!cad_cdss_final_outputs/analysis_run_summary.json
+!cad_cdss_final_outputs/gradient_boosting_calibration_curve.png
+!cad_cdss_final_outputs/gradient_boosting_threshold_selection.png
+!cad_cdss_final_outputs/gradient_boosting_final_confusion_matrix.png
+
+# 원본 데이터
+Z-Alizadeh*

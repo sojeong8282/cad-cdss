@@ -1,0 +1,2 @@
+﻿model,calibration,variable_group,n_features,threshold,n_train,n_test,test_normal,test_cad,roc_auc,pr_auc,brier,log_loss,accuracy,recall,specificity,precision,negative_predictive_value,f1,tn,fp,fn,tp
+GradientBoosting_Raw,none,A+B+C,53,0.64,242,61,18,43,0.8152454780361756,0.9105845979872861,0.1582957053875616,0.5652760299216394,0.8032786885245902,0.8604651162790697,0.6666666666666666,0.8604651162790697,0.6666666666666666,0.8604651162790697,12,6,6,37

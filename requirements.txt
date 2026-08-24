@@ -1,0 +1,13 @@
+# CAD CDSS — Streamlit Community Cloud 배포용 requirements
+# 최종 모델 cad_cdss_gradient_boosting_final.joblib은
+# scikit-learn 1.9.0 환경에서 생성되었으므로 버전을 고정합니다.
+
+streamlit>=1.32,<2.0
+pandas>=2.0,<3.0
+numpy>=1.24,<3.0
+scikit-learn==1.9.0
+joblib>=1.3
+matplotlib>=3.7
+shap>=0.44
+openai>=1.0
+python-dotenv>=1.0
